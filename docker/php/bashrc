@@ -1,0 +1,13 @@
+# Custom profile
+if [[ -S "$HOME/.gnupg/S.gpg-agent.ssh" ]]; then
+      export SSH_AUTH_SOCK="$HOME/.gnupg/S.gpg-agent.ssh"
+fi
+
+# Importing Keys from HostMachine
+ssh-add -K ~/.ssh
+
+alias enablekeys='echo " /n LOCAL DEVICE: ssh-add -K ~/.ssh/so_rsa /n ON DOCKER IMAGE: ssh-add -K ~/.ssh "'
+alias phinx='/var/www/vendor/bin/phinx'
+alias appadmin='cd /var/www'
+alias retail='cd /var/www2'
+alias officemanager='cd /var/www3'

@@ -1,0 +1,2 @@
+.chart .overlay{min-height:250px;height:250px;max-height:250px;max-width:100%;width:100%;position:absolute;}
+.chart canvas{min-height:250px;height:250px;max-height:250px;max-width:100%;}

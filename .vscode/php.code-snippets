@@ -1,0 +1,35 @@
+{
+	"phptag": {
+		"prefix": "phptag",
+		"body": "<?php ${1:url}' ?>",
+		"description": "Open & Close PHP tag"
+	},
+	"phpecho": {
+		"prefix": "phpecho",
+		"body": "<?= ${1:var} ?>",
+		"description": "PHP ECHO shortag Open & Close"
+	},
+	"phinxNewTable": {
+		"prefix": "phinx_new_table",
+		"body": [
+			"\t\t$$orgs = $$this->table('${1:tableName}', ['primary_key' => '${2:key}', 'id' => false]);",
+			"\t\t$$orgs->addColumn('${2:key}','integer', ['identity' => true, 'seed' => ${3:107}, 'increment' => ${4:29}])",
+			"\t\t\t\t->addColumn('org_name', 'string')",
+			"\t\t\t\t->addColumn('msrp', 'decimal', ['null' => true, 'precision' => 9, 'scale' => 2])",
+			"\t\t\t\t->addColumn('created_at', 'timestamp', ['null' => false, 'timezone' => true, 'default' => Literal::from('now()')])",
+			"\t\t\t\t->addColumn('updated_at', 'timestamp', ['null' => true, 'timezone' => true])",
+			"\t\t\t\t->addColumn('deleted_at', 'timestamp', ['null' => true, 'timezone' => true])",
+			"\t\t\t\t->addColumn('deleted', 'boolean', ['default' => false])",
+			"\t\t\t\t->addForeignKey('this_column', 'fk_table', 'fk_field', ['delete' => 'CASCADE', 'update' => 'CASCADE'])",
+			"\t\t\t\t->addIndex([], ['unique' => true])",
+			"\t\t\t\t->create();",
+			"",
+			"\t\t// Set increment and seed on table, the option(s) does not seem to work properly.",
+			"\t\tif ($$this->isMigratingUp()) {",
+			"\t\t\t$$this->execute('ALTER SEQUENCE ${1:tableName}_${2:key}_seq INCREMENT BY ${4:29} START with ${3:107}; ALTER SEQUENCE ${1:tableName}_${2:key}_seq RESTART WITH ${3:107};');",
+			"\t\t}",
+			"",
+		],
+		"description": "Phinx New Table Template"
+	}
+}

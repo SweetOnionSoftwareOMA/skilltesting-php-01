@@ -1,0 +1,15 @@
+paths:
+    migrations: /var/www/db/migrations
+    seeds:  /var/www/db/seeds
+
+environments:
+    default_migration_table: phinxmigrations
+    default_environment: development
+    development:
+        adapter: pgsql
+        host: postgres
+        name: dev_vpp
+        user: dev_dbuser_vpp
+        pass: 'password'
+        port: 5432
+

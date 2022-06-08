@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Directory",
+        "name": "/Users/clark/work_files/visionplanpro/application/controllers",
+        "parent_id": null,
+        "workspaceRoot": "/Users/clark/work_files/visionplanpro",
+        "workspacePath": "application/controllers",
+        "id": "0jOlqTge1FwS5LYZ"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/clark/work_files/visionplanpro/application/models",
+        "parent_id": null,
+        "workspaceRoot": "/Users/clark/work_files/visionplanpro",
+        "workspacePath": "application/models",
+        "id": "Z2IiYyEC9PzUx3VB"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/clark/work_files/visionplanpro/application/views",
+        "parent_id": null,
+        "workspaceRoot": "/Users/clark/work_files/visionplanpro",
+        "workspacePath": "application/views",
+        "id": "EZAyCXLnlpaWfgh5"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/clark/work_files/visionplanpro/db",
+        "parent_id": null,
+        "workspaceRoot": "/Users/clark/work_files/visionplanpro",
+        "workspacePath": "db",
+        "id": "n8HUcPbuz9WO6aSI"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/clark/work_files/visionplanpro/assets",
+        "parent_id": null,
+        "workspaceRoot": "/Users/clark/work_files/visionplanpro",
+        "workspacePath": "assets",
+        "id": "IOb0kLCqw8QXgcJS"
+    }
+]
