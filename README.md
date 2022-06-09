@@ -25,6 +25,10 @@ To make it easy for you to get started with your assessment, here's a list of wh
 - [ ] In your local machine, look for your hosts file and add the following `127.0.0.1 mtm.lvh.me`. Save the file.
 - [ ] Open your browser and go to http://mtm.lvh.me
 
+## Solve Problems
+
+The problems are specified within the project. Please do as much as you can and as best as you can. You will be evaluated not on how many you've finished, but on how you approached, thought about, and solve each problem.
+
 ## Things to Remember
 
 - Do not commit and push any changes into this repository.
