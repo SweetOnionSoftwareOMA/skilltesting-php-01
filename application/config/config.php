@@ -529,4 +529,4 @@ $config['proxy_ips'] = '';
 $config['send_new_data_eamil'] = false;
 
 //Send Grid API Key
-$config['sendgrid_key'] = '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';
+$config['sendgrid_key'] = '';
