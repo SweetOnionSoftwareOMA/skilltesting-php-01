@@ -32,4 +32,4 @@ The problems are specified within the project. Please do as much as you can and 
 ## Things to Remember
 
 - Do not commit and push any changes into this repository.
-- Once you're done with the assessment and ready to submit your work, send us the link to the new public GitLab repository you've created to clone this project.
+- Once you're done with the assessment and ready to submit your work, send us the link to the new public GitLab repository you've created to clone this project...
